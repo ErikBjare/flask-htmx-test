@@ -79,10 +79,6 @@ def plot():
     date = datetime.strptime(date_str, "%Y-%m-%d")
 
     plot_path = generate_plot_path(number, text, date)
-    print(plot_path)
-    print(plot_path.name)
-    print(str(img_folder))
-    print(url_for("static", filename=str(plot_path)[7:]))
     return f'<img src="{url_for("static", filename=str(plot_path)[7:])}" alt="Plot Image"/>'
 
 
