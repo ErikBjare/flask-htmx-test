@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-htmx-test"
+version = "0.1.0"
+description = ""
+authors = ["Erik Bjäreholt <erik@bjareho.lt>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.0"
+matplotlib = "^3.8.2"
+flask-caching = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
